@@ -6,7 +6,7 @@ public class Spawner : MonoBehaviour
 {
     [SerializeField]
     private GameObject gameObjectToInstanciate;
-    private float xMin = -978f;
+    private float xMin = -920f;
     private float xMax = -624f;
 
     IEnumerator SpawnerCooldown()
